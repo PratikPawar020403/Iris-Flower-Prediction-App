@@ -51,7 +51,7 @@ if predicted_class == 'setosa':
 elif predicted_class == 'versicolor':
     image = Image.open('iris/versicolor.jpg')
 else:
-    image = Image.open('images\virginica.jpg')
+    image = Image.open('iris/virginica.jpg')
 
 st.image(image, caption=f'This is a {predicted_class} iris flower.', use_column_width=True)
 
