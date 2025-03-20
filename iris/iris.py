@@ -47,7 +47,7 @@ st.write(predicted_class)
 
 # Load and display the corresponding image
 if predicted_class == 'setosa':
-    image = Image.open('images\setosa.jpg')
+    image = Image.open('iris/setosa.jpg')
 elif predicted_class == 'versicolor':
     image = Image.open('images\versicolor.jpg')
 else:
